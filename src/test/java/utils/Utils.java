@@ -31,7 +31,7 @@ public class Utils {
         return new WebDriverWait(driver, timeoutSeconds);
     }
 
-    public void scroll(WebDriver driver){
+    public void screenScroll(WebDriver driver){
         JavascriptExecutor jse = ((JavascriptExecutor) driver);
         jse.executeScript("window.scrollTo(0, 400)");
     }

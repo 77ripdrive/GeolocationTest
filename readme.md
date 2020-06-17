@@ -1,2 +1,2 @@
-# Simple test with geolocation emulation.
+# Simple test with emulation of geolocation.
 ##Chrome DevTools 
